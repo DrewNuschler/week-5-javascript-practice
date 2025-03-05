@@ -29,8 +29,9 @@
   <script>
     // Try it! 
     let f4, f5;
-
-    document.write();
+    f4 = "blueberry";
+    f5 = "kiwi";
+    document.write(f4 + f5);
   </script>
   <p> Try it! One more time, make up a new fruit! </p>
   <h3>Another Example</h3>
@@ -38,6 +39,9 @@
     "-" between them.</p>
   <p>I like
     <script>
+      let d1, d2;
+      d1 = "strawberry";
+      d2 = "banana";
       document.write(f1 + "-" + f2);
     </script>
   </p>
@@ -46,13 +50,19 @@
   <p>
     I also like:
     <script>
-      document.write();
+      let a1, a2;
+      a1 = "dragon fruit";
+      a2 = "guava";
+      document.write(a1 + "-" + a2);
     </script>
   </p>
   <p>
     But my favorite is:
     <script>
-      document.write();
+      let a3, a4;
+      a3 = "blueberry";
+      a4 = "banana";
+      document.write(a3 + "-" + a4);
     </script>
   </p>
 
@@ -69,20 +79,26 @@
   <p>
     I really want a...
     <script>
-      document.write(fruit1);
+      document.write(` I really want a ${fruit1} smoothy`);
     </script>
   </p>
   <h3>Try it!</h3>
   <p>Try to make a fruit that is a combo of three or more fruits.</p>
   <script>
     let fruit2;
+    fruit2 = "strawberry";
+    fruit2 += "blueberry";
+    fruit2 += "banana";
   </script>
   <p>
     The best fruit in the world would be a...
     <script>
+     let fruit3;
+     fruit3 = "kiwi";
+     fruit3 += "pear";
+     fruit3 +="watermelon";
 
-
-      document.write();
+      document.write(` ${fruit3}, is definitely the best in the world`);
     </script>
   </p>
   <h3>Try it!</h3>
@@ -91,10 +107,15 @@
   <p>
     Really, the best is...
     <script>
+      let a, b, c, d;
+      a = "strawberry";
+      b = "blueberry";
+      c = "pear";
+      d = "kiwi";
 
-
-
-    </script>
+      document.write(a + "-" + b + "-" + c + "-" + d);
+    </script>,
+    its and amazing combo.
   </p>
 
 </body>
